@@ -1,6 +1,6 @@
 def first_list(one_list):
     try:
-        print("Enter 1st list Elements")
+        print("Enter 1st list Elements: ")
         while True:
             one_list.append(int(input()))
     except:
@@ -10,7 +10,7 @@ def first_list(one_list):
 
 def second_list(two_list):
     try:
-        print("Enter 2nd List Elements")
+        print("Enter 2nd List Elements: ")
         while True:
             two_list.append(int(input()))
     except:
